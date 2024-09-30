@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Jost", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 0 6rem 0;
+  font-weight: 500;
+}
+.header-text-main {
+  text-decoration: none;
+  font-size: 2rem;
+}
+a {
+  color: #000000;
+}
+.social-media-icon {
+  display: inline-block;
+}
+.header-part-1 {
+  display: flex;
+}
+.header-part-2 {
+  display: flex;
+  gap: 6rem;
+}
+.header-part-2-items {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.header-text {
+  text-decoration: none;
+}
+.social-media-icon {
+  border: 1px solid #e0dede;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.social-media-icon:hover {
+  background-color: #000000;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.section {
+  display: flex;
+  gap: 6rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.hero {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.article-post-box {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.article-image {
+  display: inline-block;
+}
+.trending-post-title {
+  margin-bottom: 2rem;
+}
+.trending-post-box {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.page-number {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.page-number:first-child {
+  border-radius: 50%;
+}
+.number {
+  height: 50px;
+  width: 50px;
+  font-size: 1.4rem;
+  display: flex;
+  color: gray;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+}
+.number:first-child {
+  border: 1px solid #e0dede;
+  border-radius: 50%;
+}
+.number:hover {
+  border: 1px solid #e0dede;
+  border-radius: 50%;
+}
+.photo-galary {
+  display: flex;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.photo-galary {
+  display: flex;
+  width: 100%;
+}
+
+.photo-galary-box {
+  width: 16.66%;
+}
+.galary-img {
+  width: 100%;
+}
+
+.blogger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.blogger-3 {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.footer {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text {
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 3rem;
+}
