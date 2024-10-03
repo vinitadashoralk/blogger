@@ -40,12 +40,14 @@ a {
 .header-text {
   text-decoration: none;
 }
-.social-media-icon {
+.social-media-icon,
+.location-img {
   border: 1px solid #e0dede;
   border-radius: 50%;
   padding: 1rem;
 }
-.social-media-icon:hover {
+.social-media-icon:hover,
+.location-img:hover {
   background-color: #000000;
 }
 
@@ -161,4 +163,79 @@ a {
 }
 .banner {
   max-width: 100%;
+}
+
+.contact-way {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-us {
+  display: flex;
+  width: 100%;
+  gap: 3rem;
+}
+.contact-us-left {
+  display: flex;
+  min-width: 50%;
+  flex-direction: column;
+  gap: 2rem;
+}
+.contact-us-right {
+  position: relative;
+  width: 50%;
+  display: inline-block;
+}
+.contact-us-map {
+  width: 100%;
+  height: 100%;
+}
+
+.full-screen-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: 1px solid #e0dede;
+  padding: 1rem;
+  background-color: #fff;
+}
+/* .square {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+.full-screen-button:hover {
+  cursor: pointer;
+}
+#message {
+  min-width: 100%;
+  padding: 2rem 1rem 12rem 1rem;
+}
+#email,
+#name {
+  padding: 1rem 1rem 4rem 1rem;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 1rem;
+  min-width: 100%;
+  gap: 2rem;
+  align-items: center;
+}
+.form-style {
+  border: 1px solid #e0dede;
+  border-radius: 1rem;
+  min-width: 48%;
+}
+.submit {
+  background-color: #000000;
+  color: #fff;
+  padding: 2rem 4rem 2rem 4rem;
+  border-radius: 1rem;
 }
