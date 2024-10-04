@@ -49,8 +49,13 @@ html {
 .location-img {
   border: 1px solid gray;
   border-radius: 50%;
-  padding: 1.4rem 1.6rem 1.4rem 1.6rem;
   color: gray;
+  max-width: 1rem;
+  max-height: 1rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .social-media-icon:hover,
 .location-img:hover {
@@ -59,10 +64,10 @@ html {
   border: 1px solid transparent;
 }
 /* contact */
-.fa-facebook,
+/* .fa-facebook,
 .fa-map-marker {
   padding: 1.4rem 1.8rem 1.4rem 1.8rem;
-}
+} */
 /* photo galary at botttom */
 .galary {
   position: relative;
