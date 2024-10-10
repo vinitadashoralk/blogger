@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Jost", sans-serif;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 0 6rem 0;
+  font-weight: 500;
+}
+.header-text-main {
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.header-part-1 {
+  display: flex;
+}
+.header-part-2 {
+  display: flex;
+  gap: 3rem;
+}
+.header-part-2-items {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.header-text {
+  text-decoration: none;
+  font-weight: 500;
+}
+.social-media-icon {
+  display: inline-block;
+}
+.social-media-icon,
+.location-img {
+  border: 1px solid gray;
+  border-radius: 50%;
+  color: gray;
+  max-width: 1rem;
+  max-height: 1rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.social-media-icon:hover,
+.location-img:hover {
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.outer-icon-circle {
+  width: 6rem;
+  height: 6rem;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.outer-icon-circle::after {
+  content: "";
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+
+.outer-icon-circle:hover::after {
+  height: 6rem;
+  width: 6rem;
+  transform: scale(1.01);
+  border-color: #000;
+}
+
+/* contact */
+/* .fa-facebook,
+.fa-map-marker {
+  padding: 1.4rem 1.8rem 1.4rem 1.8rem;
+} */
+/* photo galary at botttom */
+.galary {
+  position: relative;
+}
+.photo-galary {
+  display: flex;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  width: 100%;
+}
+
+.photo-galary-box {
+  width: 16.66%;
+}
+.galary-img {
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+  color: white;
+  display: flex;
+  fill: #fff;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  gap: 1rem;
+}
+.overlay:hover {
+  opacity: 1;
+}
+/* upper part of footer */
+
+.blogger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+/* .blogger-3 {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+} */
+
+/* footer */
+.footer {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text {
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 3rem;
+}
